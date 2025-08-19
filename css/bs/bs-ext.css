@@ -1,0 +1,565 @@
+
+
+.apex{z-index:777; position: relative;}
+
+@media all and (min-width: 1px) and (max-width: 767px) {
+
+}
+
+
+.east {
+float: right;
+right: 0px;
+}
+
+.west {
+float: left;
+left: 0px;
+}
+
+.b-example-divider {
+height: 3rem;
+background-color: rgba(0, 0, 0, 0.1);
+border: solid rgba(0, 0, 0, 0.15);
+border-width: 1px 0;
+box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+[class^=sm-centered-], [class^=md-centered-], [class^=lg-centered-], [class^=xl-centered-] {
+margin-left: auto;
+margin-right: auto;
+right: 0px;
+left: 0px;
+}
+
+/* Define custom CSS rules for start and end classes */
+[class^=start-],
+[class^=end-] {
+position: relative;
+}
+
+/* Create media query wrappers */
+@media (min-width: 576px) { /* sm */
+.fs-1 {
+font-size: 1.125rem;
+}
+}
+@media (min-width: 768px) { /* md */
+.fs-1 {
+font-size: 1.125rem;
+}
+.fs-2 {
+font-size: 1.25rem;
+}
+}
+@media (min-width: 992px) { /* lg */
+.fs-1 {
+font-size: 1.125rem;
+}
+.fs-2 {
+font-size: 1.25rem;
+}
+.fs-3 {
+font-size: 1.5rem;
+}
+}
+@media (min-width: 1200px) { /* xl */
+.fs-1 {
+font-size: 1.125rem;
+}
+.fs-2 {
+font-size: 1.25rem;
+}
+.fs-3 {
+font-size: 1.5rem;
+}
+.fs-4 {
+font-size: 1.75rem;
+}
+}
+/* Add styles for additional font sizes as needed */
+/*
+Extend Bootstrap 5 Positioning so start/end work like push/pull
+*/
+.start-1 {
+left: 6.33333333%;
+width: 91.66666667%;
+}
+
+.start-2 {
+left: 12.66666667%;
+width: 83.33333333%;
+}
+
+.start-3 {
+left: 19%;
+width: 75%;
+}
+
+.start-4 {
+left: 24.33333333%;
+width: 66.66666667%;
+}
+
+.start-5 {
+left: 30.66666667%;
+width: 58.33333333%;
+}
+
+.start-6 {
+left: 36%;
+width: 50%;
+}
+
+.start-7 {
+left: 42.33333333%;
+width: 41.66666667%;
+}
+
+.start-8 {
+left: 48.66666667%;
+width: 33.33333333%;
+}
+
+.start-9 {
+left: 54%;
+width: 25%;
+}
+
+.start-10 {
+left: 60.33333333%;
+width: 16.66666667%;
+}
+
+.start-11 {
+left: 66.66666667%;
+width: 8.33333333%;
+}
+
+/* Extend end classes for all 12 grid columns */
+.end-1 {
+right: 6.33333333%;
+width: 91.66666667%;
+}
+
+.end-2 {
+right: 12.66666667%;
+width: 83.33333333%;
+}
+
+.end-3 {
+right: 18%;
+width: 75%;
+}
+
+.end-4 {
+right: 24.33333333%;
+width: 66.66666667%;
+}
+
+.end-5 {
+right: 30.66666667%;
+width: 58.33333333%;
+}
+
+.end-6 {
+right: 36%;
+width: 50%;
+}
+
+.end-7 {
+right: 42.33333333%;
+width: 41.66666667%;
+}
+
+.end-8 {
+right: 48.66666667%;
+width: 33.33333333%;
+}
+
+.end-9 {
+right: 54%;
+width: 25%;
+}
+
+.end-10 {
+right: 60.33333333%;
+width: 16.66666667%;
+}
+
+.end-11 {
+right: 66.66666667%;
+width: 8.33333333%;
+}
+
+/* Create media query wrappers */
+@media (min-width: 576px) { /* sm */
+/* Extend start classes for all 12 grid columns */
+.start-sm-1 {
+left: 6.33333333%;
+width: 91.66666667%;
+}
+.start-sm-2 {
+left: 12.66666667%;
+width: 83.33333333%;
+}
+.start-sm-3 {
+left: 19%;
+width: 75%;
+}
+.start-sm-4 {
+left: 24.33333333%;
+width: 66.66666667%;
+}
+.start-sm-5 {
+left: 30.66666667%;
+width: 58.33333333%;
+}
+.start-sm-6 {
+left: 36%;
+width: 50%;
+}
+.start-sm-7 {
+left: 42.33333333%;
+width: 41.66666667%;
+}
+.start-sm-8 {
+left: 48.66666667%;
+width: 33.33333333%;
+}
+.start-sm-9 {
+left: 54%;
+width: 25%;
+}
+.start-sm-10 {
+left: 60.33333333%;
+width: 16.66666667%;
+}
+.start-sm-11 {
+left: 66.66666667%;
+width: 8.33333333%;
+}
+/* Extend end classes for all 12 grid columns */
+.end-sm-1 {
+right: 6.33333333%;
+width: 91.66666667%;
+}
+.end-sm-2 {
+right: 12.66666667%;
+width: 83.33333333%;
+}
+.end-sm-3 {
+right: 18%;
+width: 75%;
+}
+.end-sm-4 {
+right: 24.33333333%;
+width: 66.66666667%;
+}
+.end-sm-5 {
+right: 30.66666667%;
+width: 58.33333333%;
+}
+.end-sm-6 {
+right: 36%;
+width: 50%;
+}
+.end-sm-7 {
+right: 42.33333333%;
+width: 41.66666667%;
+}
+.end-sm-8 {
+right: 48.66666667%;
+width: 33.33333333%;
+}
+.end-sm-9 {
+right: 54%;
+width: 25%;
+}
+.end-sm-10 {
+right: 60.33333333%;
+width: 16.66666667%;
+}
+.end-sm-11 {
+right: 66.66666667%;
+width: 8.33333333%;
+}
+}
+@media (min-width: 768px) { /* md */
+/* Extend start classes for all 12 grid columns */
+.start-md-1 {
+left: 6.33333333%;
+width: 91.66666667%;
+}
+.start-md-2 {
+left: 12.66666667%;
+width: 83.33333333%;
+}
+.start-md-3 {
+left: 19%;
+width: 75%;
+}
+.start-md-4 {
+left: 24.33333333%;
+width: 66.66666667%;
+}
+.start-md-5 {
+left: 30.66666667%;
+width: 58.33333333%;
+}
+.start-md-6 {
+left: 36%;
+width: 50%;
+}
+.start-md-7 {
+left: 42.33333333%;
+width: 41.66666667%;
+}
+.start-md-8 {
+left: 48.66666667%;
+width: 33.33333333%;
+}
+.start-md-9 {
+left: 54%;
+width: 25%;
+}
+.start-md-10 {
+left: 60.33333333%;
+width: 16.66666667%;
+}
+.start-md-11 {
+left: 66.66666667%;
+width: 8.33333333%;
+}
+/* Extend end classes for all 12 grid columns */
+.end-md-1 {
+right: 6.33333333%;
+width: 91.66666667%;
+}
+.end-md-2 {
+right: 12.66666667%;
+width: 83.33333333%;
+}
+.end-md-3 {
+right: 18%;
+width: 75%;
+}
+.end-md-4 {
+right: 24.33333333%;
+width: 66.66666667%;
+}
+.end-md-5 {
+right: 30.66666667%;
+width: 58.33333333%;
+}
+.end-md-6 {
+right: 36%;
+width: 50%;
+}
+.end-md-7 {
+right: 42.33333333%;
+width: 41.66666667%;
+}
+.end-md-8 {
+right: 48.66666667%;
+width: 33.33333333%;
+}
+.end-md-9 {
+right: 54%;
+width: 25%;
+}
+.end-md-10 {
+right: 60.33333333%;
+width: 16.66666667%;
+}
+.end-md-11 {
+right: 66.66666667%;
+width: 8.33333333%;
+}
+}
+@media (min-width: 992px) { /* lg */
+/* Extend start classes for all 12 grid columns */
+.start-lg-1 {
+left: 6.33333333%;
+width: 91.66666667%;
+}
+.start-lg-2 {
+left: 12.66666667%;
+width: 83.33333333%;
+}
+.start-lg-3 {
+left: 19%;
+width: 75%;
+}
+.start-lg-4 {
+left: 24.33333333%;
+width: 66.66666667%;
+}
+.start-lg-5 {
+left: 30.66666667%;
+width: 58.33333333%;
+}
+.start-lg-6 {
+left: 36%;
+width: 50%;
+}
+.start-lg-7 {
+left: 42.33333333%;
+width: 41.66666667%;
+}
+.start-lg-8 {
+left: 48.66666667%;
+width: 33.33333333%;
+}
+.start-lg-9 {
+left: 54%;
+width: 25%;
+}
+.start-lg-10 {
+left: 60.33333333%;
+width: 16.66666667%;
+}
+.start-lg-11 {
+left: 66.66666667%;
+width: 8.33333333%;
+}
+/* Extend end classes for all 12 grid columns */
+.end-lg-1 {
+right: 6.33333333%;
+width: 91.66666667%;
+}
+.end-lg-2 {
+right: 12.66666667%;
+width: 83.33333333%;
+}
+.end-lg-3 {
+right: 18%;
+width: 75%;
+}
+.end-lg-4 {
+right: 24.33333333%;
+width: 66.66666667%;
+}
+.end-lg-5 {
+right: 30.66666667%;
+width: 58.33333333%;
+}
+.end-lg-6 {
+right: 36%;
+width: 50%;
+}
+.end-lg-7 {
+right: 42.33333333%;
+width: 41.66666667%;
+}
+.end-lg-8 {
+right: 48.66666667%;
+width: 33.33333333%;
+}
+.end-lg-9 {
+right: 54%;
+width: 25%;
+}
+.end-lg-10 {
+right: 60.33333333%;
+width: 16.66666667%;
+}
+.end-lg-11 {
+right: 66.66666667%;
+width: 8.33333333%;
+}
+}
+@media (min-width: 1200px) { /* xl */
+/* Extend start classes for all 12 grid columns */
+.start-xl-1 {
+left: 6.33333333%;
+width: 91.66666667%;
+}
+.start-xl-2 {
+left: 12.66666667%;
+width: 83.33333333%;
+}
+.start-xl-3 {
+left: 19%;
+width: 75%;
+}
+.start-xl-4 {
+left: 24.33333333%;
+width: 66.66666667%;
+}
+.start-xl-5 {
+left: 30.66666667%;
+width: 58.33333333%;
+}
+.start-xl-6 {
+left: 36%;
+width: 50%;
+}
+.start-xl-7 {
+left: 42.33333333%;
+width: 41.66666667%;
+}
+.start-xl-8 {
+left: 48.66666667%;
+width: 33.33333333%;
+}
+.start-xl-9 {
+left: 54%;
+width: 25%;
+}
+.start-xl-10 {
+left: 60.33333333%;
+width: 16.66666667%;
+}
+.start-xl-11 {
+left: 66.66666667%;
+width: 8.33333333%;
+}
+/* Extend end classes for all 12 grid columns */
+.end-xl-1 {
+right: 6.33333333%;
+width: 91.66666667%;
+}
+.end-xl-2 {
+right: 12.66666667%;
+width: 83.33333333%;
+}
+.end-xl-3 {
+right: 18%;
+width: 75%;
+}
+.end-xl-4 {
+right: 24.33333333%;
+width: 66.66666667%;
+}
+.end-xl-5 {
+right: 30.66666667%;
+width: 58.33333333%;
+}
+.end-xl-6 {
+right: 36%;
+width: 50%;
+}
+.end-xl-7 {
+right: 42.33333333%;
+width: 41.66666667%;
+}
+.end-xl-8 {
+right: 48.66666667%;
+width: 33.33333333%;
+}
+.end-xl-9 {
+right: 54%;
+width: 25%;
+}
+.end-xl-10 {
+right: 60.33333333%;
+width: 16.66666667%;
+}
+.end-xl-11 {
+right: 66.66666667%;
+width: 8.33333333%;
+}
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+.video-thumbnail {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-play-button {
+  font-size: 60px;
+  color: white;
+}
+
+.video-thumbnail button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.video-thumbnail:hover .video-play-button {
+  opacity: 0.7;
+}
+
+
+.btn-close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1051; /* Ensure it's above modal content */
+  border: none;
+  background: none;
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #ffffff; /* Adjust color as needed */
+}
+.video-preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1040; /* behind the video element */
+  color: #ffffff; /* Adjust color as needed */
+}
+
+/* Make sure video is above preloader */
+.modal-body video {
+  position: relative;
+  width:100%;
+  height:100%;
+  z-index: 1050;
+}

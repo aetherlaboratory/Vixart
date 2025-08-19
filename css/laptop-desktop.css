@@ -1,0 +1,12 @@
+/* Desktop styles */
+@media (min-width: 768px) {
+    #desktop-menu {
+        display: block;
+    }
+    
+    #mobile-menu {
+        display: none;
+    }
+}
+   @media screen and (min-width: 1200px) {
+    }
