@@ -56,8 +56,8 @@ This will position the .preloader-progress element to the left of its parent con
      
 }
 
-.preloader-container #splash-logo{position: relative; display: block;margin: 5.5em auto 0px auto;float:none;
-width:25em; height:auto;
+.preloader-container #splash-logo{position: relative; display: block;margin: 3.5em auto 0px auto;float:none;
+width:18em; height:auto;
 }
 
 .main-menu #splash-logo{
