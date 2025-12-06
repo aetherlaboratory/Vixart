@@ -212,7 +212,7 @@ $query = new WP_Query($args);?>
 <?php while ($query->have_posts()) : $query->the_post(); $count++; ?>
 
 
-<div class="col-3">
+<div class="col-12 col-md-6 col-lg-3 mb-3">
 <a href="<?php the_permalink(); ?>">
 <img alt="image" width="255" height="255" class="img-fluid rounded" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full');?>">
 <h3 class="text-dark"><strong><?php echo get_the_title(); ?></strong></h3>
@@ -258,7 +258,7 @@ $query = new WP_Query($args);?>
 <?php while ($query->have_posts()) : $query->the_post(); $count++; ?>
 
 
-<div class="col-3">
+<div class="col-12 col-md-6 col-lg-3 mb-3">
 <a href="<?php the_permalink(); ?>">
 <img alt="image"  width="255" height="255" class="img-fluid rounded" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full');?>">
 <h3 class="text-dark"><strong><?php echo get_the_title(); ?></strong></h3>

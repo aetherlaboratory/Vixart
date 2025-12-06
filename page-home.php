@@ -12,7 +12,7 @@ $cover_excerpt = get_cs_option('cover_excerpt');
 <div class="col-lg-6 mx-auto">
 <p class="lead mb-4"><?php echo esc_html($cover_excerpt); ?></p>
 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-<a href="<?php echo the_permalink();?>" class="btn btn-primary btn-lg px-4 me-sm-3">View Art</a>
+<a href="/all-artwork" class="btn btn-primary btn-lg px-4 me-sm-3">View Art</a>
 <a href="/commissions" class="btn btn-outline-danger btn-lg px-4">Request Art</a>
 
 </div>
@@ -119,7 +119,7 @@ $args = array(
 $query = new WP_Query($args);?>
 <?php if ($query->have_posts()) : $count = 0; ?>
 <?php while ($query->have_posts()) : $query->the_post(); $count++; ?>
-<div class="col-10 col-sm-3">
+<div class="col-10 col-md-6 col-lg-3">
 <img alt="image" width="300" height="200" class="rounded" src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full');?>">
 <h3><strong><?php the_title();?></strong></h3>
 </div>

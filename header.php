@@ -22,5 +22,13 @@
 
 
 <div id="wrapper">
-
+    <div class="search-form d-none position-fixed apex top-0 end-0 me-5 mt-1">
+        <form class= "form-control bg-glass-light" action="#">
+            <input type="text form-control bg-light">
+            <button class="btn btn-sm btn-warning">Search</button>
+        </form>
+    </div>
+<button id="search-btn" class="btn rounded-circle bg-glass-dark
+ border border-2 border-warning px-1 py-1 apex position-fixed top-0 end-0 mt-1 me-2">
+    <i class="fas fa-search px-1 py-1 text-dark"></i></button>
 <?php get_template_part( 'menu' );?>

@@ -35,7 +35,7 @@
 
           
           <!-- Video Thumbnail -->
-          <div class="col-3">
+          <div class="col-12 col-md-6 col-lg-3">
             <div class="position-relative">
              
               <a href="#" data-bs-toggle="modal" data-bs-target="#videoModal<?php echo $counter; ?>" data-video-url="
