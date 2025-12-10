@@ -43,6 +43,7 @@
                 <div class="col-lg-4 col-md-6 mb-4"> <!-- Each post will take up 4 columns on large screens and 6 on medium screens -->
                     <div class="card h-100">
                         <!-- Image as background -->
+                         <a href="<?php echo the_permalink();?>">
                         <div class="card-img-top" style="
                             background-image: url('<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>');
                             background-size: cover;
@@ -51,6 +52,7 @@
                             height: 300px; /* Fixed square height */
                             ">
                         </div>
+                        </a>
                         <div class="card-body text-dark">
                             <h5 class="card-title"><?php echo get_the_title(); ?></h5>
                             <p class="card-text"><?php echo wp_trim_words(get_the_excerpt(), 20); ?></p>
